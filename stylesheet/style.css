@@ -74,3 +74,86 @@ header{
 }
 
 /* Header style End */
+
+/* developer section style*/
+
+
+.why-development-container{
+    background-color: #fff;
+    padding: 40px auto;
+}
+.why-development-content{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.why-development-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px;
+}
+.why-development-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.why-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+
+.why-container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+.why-container .left{
+    flex-direction: row;
+}
+.why-container .why-text-content{
+    text-align: left;
+    flex: 1;
+}
+.why-text-content h3{
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #0D1321B3;
+}
+.why-text-content p{
+    font-size: 17px;
+    margin: 0 0 20px;
+    color: #0D1321;
+}
+.why-text-content button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
