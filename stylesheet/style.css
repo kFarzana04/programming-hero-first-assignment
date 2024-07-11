@@ -94,24 +94,33 @@ header{
     font-size: 40px;
     font-weight: 700;
     margin: 20px;
+    font-family: "Azeret Mono", monospace
 }
 .why-development-content p{
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+    margin-left: 30px;
 }
 .why-container{
+    width: 80%;
+    height: 336px;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    margin-left:  100px;
+    padding-left: 30px;
     margin-bottom: 40px;
     padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px ragb(0, 0, 0, .1);
 }
 
 
 .why-container img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 8px;
 }
 .why-container .left{
@@ -120,6 +129,9 @@ header{
 .why-container .why-text-content{
     text-align: left;
     flex: 1;
+}
+.why-container .right{
+    text-align: right;
 }
 .why-text-content h3{
     font-size: 24px;
@@ -133,14 +145,14 @@ header{
 }
 .why-text-content button{
     padding: 10px 20px;
-    background-color: black;
-    color: white;
-    border: none;
+    background-color: white;
+    color: #0D1321;
+    border: 2px #0D1321 solid;
     font-size: 17px;
     border-radius: 7px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
+    opacity: 0.7;
 
 }
 /* development section style end*/
