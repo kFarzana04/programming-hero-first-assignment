@@ -272,7 +272,38 @@ form button{
     color: black;
     background-color: white;
 }
+/*support section end*/
 
+/*footer section style */
+
+.footer-container{
+    max-width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(13, 19, 33, 0.03);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+
+}
+.footer-container p{
+    margin: 20px;
+    font-size: 16px;
+    color: #0D1321;
+}
+
+.footer-icon{
+    margin-top: 20px;
+
+}
+.social-icon{
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* footer ends*/
 
 
 
