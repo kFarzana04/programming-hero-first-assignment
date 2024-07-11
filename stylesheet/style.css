@@ -138,6 +138,32 @@ header{
     border: none;
     font-size: 17px;
     border-radius: 7px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+/* development section style end*/
+
+/* inspiration section style */
+
+.motivation-container{
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.motivational-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.video-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px #0D132133 solid;
+    border-radius: 10px;
 }
 
 
