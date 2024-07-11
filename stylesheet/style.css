@@ -178,6 +178,27 @@ opacity: 0.7;
     border: 1px #0D132133 solid;
     padding: 20px;
 }
+/* video section ends */
+
+/*current target section style */
+
+.current-target-container 
+.current-target-content{
+    width: 80%;
+    margin: 0 auto; 
+}
+.current-content h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.current-content p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+/* suppo
 
 
 
